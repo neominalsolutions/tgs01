@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{!-- sayfa title değerlerini dinmaik olarak değiştirmek için yaptık --}}
+  <title>{{title}}</title>
+</head>
+
+<body>
+  {{!-- sayfa bir parçalı html gömmüş olduk --}}
+  {{!-- partail çağırmak için > kullanılır --}}
+  {{> header }}
+  {{!-- html rendering işlemlerinde {{{html}}}, json data {{data}} --}}
+  {{{body}}}
+</body>
+
+</html>

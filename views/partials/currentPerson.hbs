@@ -1,0 +1,12 @@
+{{!-- helpers yapısı ile template içersindeki verileri transform edebiliyoruz. --}}
+
+{{#if p}}
+<p>
+  {{capitialize p.name}} {{upperCase p.surname}}
+  {{formatDate p.bt 'DD-MM-YYYY' }}
+</p>
+{{else}}
+<p>Person Yok</p>
+{{/if}}
+
+<p>From Current Person Partial</p>

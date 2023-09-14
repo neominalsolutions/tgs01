@@ -1,0 +1,22 @@
+<p>
+  Anasayfa 
+</p>
+{{!-- if true false ve null değer kontrolü yapar --}}
+{{!-- dinamik olarak bir partail çağırımı --}}
+{{> currentPerson p=person}}
+
+{{!-- # ile block açılış / blok kapanış --}}
+
+{{!-- static partials dynamic partials --}}
+{{!-- jquery kullanımı --}}
+{{!-- axios ile veri çekme işlemleri --}}
+{{!-- dynamic route parametreleri ile çalışma --}}
+{{!-- helpers kullanımı --}}
+{{!-- bodyParser Postman Test --}}
+{{!-- static file ile çalışma --}}
+
+
+
+{{#with person}}
+{{name}} {{surname}}
+{{/with}}

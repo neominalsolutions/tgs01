@@ -1,0 +1,20 @@
+{{#list items}}{{id}} {{name}}{{/list}}
+
+<br>
+{{!-- listeler çalışırken kullanacağımız helper --}}
+<ul>
+  {{#each items }}
+  <li> {{id}} {{name}}</li>
+  {{/each}}
+</ul>
+
+{{!-- {{#saveButton}}
+{{/saveButton}}
+
+{{#group-item}}
+
+{{/group-item}} --}}
+{{!--
+<ul class="group-item">
+  <li class="list-item active"></li>
+</ul> --}}
